@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import "tailwindcss";
+
+
+
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --font-mainfont: "Square Market", sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  --breakpoint-3xl: 1920px;
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-darkBackground: #333333;
+  --color-mainBackground: #F5F1E6;
+  --color-mainWhite: #F8F8F8;
+  --color-headerText: #fcd744;
+  --color-darkCreme: #e0cf9f;
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  --color-primary: oklch(0.99 0 0);
+  /* ... */
+}
+
